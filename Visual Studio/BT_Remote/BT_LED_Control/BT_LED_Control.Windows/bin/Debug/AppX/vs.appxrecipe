@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HP2570P</Machine>
+    <WindowsUser>david</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8a3a3369-0e35-474c-86cb-2ca78219b6c4</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B6A80E5461713F849EB80060CD69E7C8C7A732FA35A1DA3A855356692AFAB1D0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8a3a3369-0e35-474c-86cb-2ca78219b6c4_1.0.0.0_neutral__77xyeq6sa2hj4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8a3a3369-0e35-474c-86cb-2ca78219b6c4_77xyeq6sa2hj4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8a3a3369-0e35-474c-86cb-2ca78219b6c4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Dávid</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-30T18:34:33.561</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\BT_LED_Control.Windows.exe">
+      <PackagePath>BT_LED_Control.Windows.exe</PackagePath>
+      <Modified>2015-11-30T18:34:33.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\Assets\color_wheel_730.png">
+      <PackagePath>Assets\color_wheel_730.png</PackagePath>
+      <Modified>2015-04-12T17:45:35.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T17:58:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T17:58:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T17:58:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T17:58:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\BT_LED_Control.Windows.xr.xml">
+      <PackagePath>BT_LED_Control.Windows.xr.xml</PackagePath>
+      <Modified>2015-11-30T18:34:32.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-08T17:14:10.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-18T15:26:29.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\david\Documents\Visual Studio 2015\Projects\BT_Remote\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-11-30T18:34:33.329</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

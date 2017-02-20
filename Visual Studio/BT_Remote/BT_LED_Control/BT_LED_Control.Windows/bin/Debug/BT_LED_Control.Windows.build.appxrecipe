@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>2570P</Machine>
+    <WindowsUser>Dávid</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8a3a3369-0e35-474c-86cb-2ca78219b6c4</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\BT_LED_Control.Windows.exe">
+      <PackagePath>BT_LED_Control.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Desktop\SocketExamples\writeablebitmapEX\WinRT\WriteableBitmapEx.WinRT.dll">
+      <PackagePath>WriteableBitmapEx.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\Assets\color_wheel_730.png">
+      <PackagePath>Assets\color_wheel_730.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\BT_LED_Control.Windows.xr.xml">
+      <PackagePath>BT_LED_Control.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dávid\Documents\Visual Studio 2013\Projects\BT_LED_Control\BT_LED_Control\BT_LED_Control.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
