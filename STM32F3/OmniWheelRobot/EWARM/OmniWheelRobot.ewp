@@ -314,7 +314,7 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>$PROJ_DIR$/../Inc</state>
+          <state>$PROJ_DIR$/../../../../../../../../Inc</state>
           <state>$PROJ_DIR$/../Drivers/STM32F3xx_HAL_Driver/Inc</state>
           <state>$PROJ_DIR$/../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy</state>
           <state>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F</state>
@@ -322,7 +322,8 @@
           <state>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/include</state>
           <state>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS</state>
           <state>$PROJ_DIR$/../Drivers/CMSIS/Include</state>
-        </option>
+          <state>$PROJ_DIR$/../Inc</state>
+        <state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /><state /></option>
         <option>
           <name>CCStdIncCheck</name>
           <state>0</state>
@@ -994,14 +995,17 @@
   <group>
     <name>Components</name>
     <file>
+      <name>$PROJ_DIR$\..\Src\filter.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\Components\l3gd20\l3gd20.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\Components\lsm303dlhc\lsm303dlhc.c</name>
     </file>
-  </group>
-  <group>
-    <name>Discovery</name>
+    <file>
+      <name>$PROJ_DIR$\..\Src\matrix.c</name>
+    </file>
     <file>
       <name>$PROJ_DIR$\..\Drivers\STM32F3-Discovery\stm32f3_discovery.c</name>
     </file>
@@ -1047,6 +1051,9 @@
         <name>$PROJ_DIR$\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c</name>
       </file>
       <file>
+        <name>$PROJ_DIR$\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_irda.c</name>
+      </file>
+      <file>
         <name>$PROJ_DIR$\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c</name>
       </file>
       <file>
@@ -1076,7 +1083,11 @@
       <file>
         <name>$PROJ_DIR$\..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart_ex.c</name>
       </file>
-    </group>
+    <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c</name>
+      </file><file>
+        <name>$PROJ_DIR$/../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c</name>
+      </file></group>
   </group>
   <group>
     <name>Middlewares</name>

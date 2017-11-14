@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\GIT\OmniWheelRobot\STM32F3\OmniWheelRobot\EWARM\settings\OmniWheelRobot.OmniWheelRobot.general.xcl" --backend -f "C:\GIT\OmniWheelRobot\STM32F3\OmniWheelRobot\EWARM\settings\OmniWheelRobot.OmniWheelRobot.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\GIT\OmniWheelRobot17\STM32F3\OmniWheelRobot\EWARM\settings\OmniWheelRobot.OmniWheelRobot.general.xcl" --backend -f "C:\GIT\OmniWheelRobot17\STM32F3\OmniWheelRobot\EWARM\settings\OmniWheelRobot.OmniWheelRobot.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\GIT\OmniWheelRobot\STM32F3\OmniWheelRobot\EWARM\settings\OmniWheelRobot.OmniWheelRobot.general.xcl" "--debug_file=%1" --backend -f "C:\GIT\OmniWheelRobot\STM32F3\OmniWheelRobot\EWARM\settings\OmniWheelRobot.OmniWheelRobot.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\GIT\OmniWheelRobot17\STM32F3\OmniWheelRobot\EWARM\settings\OmniWheelRobot.OmniWheelRobot.general.xcl" "--debug_file=%1" --backend -f "C:\GIT\OmniWheelRobot17\STM32F3\OmniWheelRobot\EWARM\settings\OmniWheelRobot.OmniWheelRobot.driver.xcl" 
 
 @echo off 
 :end
